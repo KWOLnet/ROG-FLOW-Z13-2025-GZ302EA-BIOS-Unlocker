@@ -118,19 +118,7 @@ G-Helper 的 `Read Limits` 是读取操作，但启动 G-Helper 可能应用性�
 
 反馈问题时请提供：机型、BIOS 版本、工具标题、按键及菜单路径、修改前后数值、F10 完整报告、重启后的回读，以及 Windows 中使用的模式管理软件与实际限制。解释状态码时应结合其前面的标签。
 
-### 9. 文件校验与验证范围
 
-以下为本次核对的文件 SHA-256，可用于确认文件是否与本文对应版本一致：
-
-```text
-EFI/BOOT/BOOTX64.EFI
-8a94625780dde70c1e3ca010d30e27b6b674541e1016eff1d2240e7567cfb522
-
-GZ302EAAS.314
-accf8cad56b556b007689b82b426d27a1e36fc9722508a84a86d99f1c0d22ba7
-```
-
-V5 构建记录包含 49 项离线检查，覆盖菜单补丁、模拟 UEFI 浏览／恢复、AOD/CBS 原厂保存重试与回读等路径。这些检查不是所有实机高级设置生效的证明；实际降压效果、温度阈值和长期稳定性仍需在目标设备上分别验证。
 
 ## English guide
 
@@ -246,19 +234,7 @@ G-Helper `Read Limits` is a read operation, but launching G-Helper may apply a p
 
 When reporting an issue, include the model, BIOS version, tool title, keys and menu path, original/requested values, complete F10 report, post-reboot readback, and Windows mode-management software/runtime limits. Interpret status codes together with their preceding labels.
 
-### 9. File integrity and validation scope
 
-SHA-256 values of the files checked for this README:
-
-```text
-EFI/BOOT/BOOTX64.EFI
-8a94625780dde70c1e3ca010d30e27b6b674541e1016eff1d2240e7567cfb522
-
-GZ302EAAS.314
-accf8cad56b556b007689b82b426d27a1e36fc9722508a84a86d99f1c0d22ba7
-```
-
-The V5 build records contain 49 offline checks covering menu patching, mocked UEFI browsing/restoration, native AOD/CBS save retries, and readback paths. These checks do not establish that every advanced setting works on hardware. Actual undervolting effects, thermal limits, and long-term stability require separate validation on the target device.
 
 ## Contributors / 贡献者
 

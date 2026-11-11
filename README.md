@@ -1,6 +1,6 @@
 # ROG Flow Z13 2025 GZ302EA BIOS Unlocker
 
-**GZ302EA · BIOS 314 · V5 · Experimental / 实验性版本**
+**GZ302EA · BIOS 314 **
 
 [中文说明](#中文说明) | [English guide](#english-guide) | [Contributors / 贡献者](#contributors--贡献者)
 

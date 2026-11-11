@@ -27,7 +27,7 @@ GZ302EA-BIOS-Unlocker.zip
 ```
 
 - `BOOTX64.EFI` 是实际启动的工具。
-- `GZ302EAAS.314` 是 BIOS 镜像，不是 EFI 应用。运行工具不需要刷写或加载这个镜像。
+- `GZ302EAAS.314` 是 BIOS 镜像，不是 EFI 应用。运行工具不需要刷写或加载这个镜像。如果你的BIOS版本不是314，可以使用EZflash刷一下
 - 包内没有独立命名的 `GZ302EA314_MENU_PROBE.efi`；本教程使用实际存在的 `EFI/BOOT/BOOTX64.EFI`。
 
 ### 3. 使用前准备

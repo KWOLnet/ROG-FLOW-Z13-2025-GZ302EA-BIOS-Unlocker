@@ -1,0 +1,77 @@
+{
+  "input_sha256": "1f9682062953d3939f070ce0d7a907e2ebea536a2a53efa857ae0150b2df6045",
+  "output_sha256": "461977e1835d9d20b46573aa93a3b7c83bc33645cfa744eff9db7aab8e9d72ac",
+  "forms_offset": 112052,
+  "forms_size": 10724,
+  "changed_bytes": 70,
+  "edits": [
+    {
+      "question_id": 3,
+      "label": "CPU menu",
+      "module_offset": 112281,
+      "forms_offset": 229,
+      "original": "0a821286b900010017021206b80001001702150229020f0f0900090003000000ffff000101",
+      "replacement": "0a8247821702170217021702170217021702170229020f0f0900090003000000ffff000101",
+      "purpose": "Make this menu/field suppression expression FALSE"
+    },
+    {
+      "question_id": 4,
+      "label": "iGPU menu",
+      "module_offset": 112320,
+      "forms_offset": 268,
+      "original": "0a821286b700ff0017021206bc0001001702160229020f0f0a000a0004000000ffff000201",
+      "replacement": "0a8247821702170217021702170217021702170229020f0f0a000a0004000000ffff000201",
+      "purpose": "Make this menu/field suppression expression FALSE"
+    },
+    {
+      "question_id": 6,
+      "label": "PBO menu",
+      "module_offset": 112398,
+      "forms_offset": 346,
+      "original": "0a821286bd000100170229020f0f0c000c0006000000ffff000401",
+      "replacement": "0a82468217021702170229020f0f0c000c0006000000ffff000401",
+      "purpose": "Make this menu/field suppression expression FALSE"
+    },
+    {
+      "question_id": 14,
+      "label": "CPU frequency field",
+      "module_offset": 112736,
+      "forms_offset": 684,
+      "original": "0a821286b700ff0017021206b9000100170216022902079a140015000e0002f02c0010",
+      "replacement": "0a824782170217021702170217021702170217022902079a140015000e0002f02c0010",
+      "purpose": "Make this menu/field suppression expression FALSE"
+    },
+    {
+      "question_id": 15,
+      "label": "CPU voltage field",
+      "module_offset": 112797,
+      "forms_offset": 745,
+      "original": "0a821286b700ff0017021206b90001001702160229020794160017000f0002f0300010",
+      "replacement": "0a8247821702170217021702170217021702170229020794160017000f0002f0300010",
+      "purpose": "Make this menu/field suppression expression FALSE"
+    },
+    {
+      "question_id": 108,
+      "label": "iGPU Curve Optimizer entry",
+      "module_offset": 118990,
+      "forms_offset": 6938,
+      "original": "0a8212865c00020017021206b40001001702160229020f0f3e013e016c000000ffff001e01",
+      "replacement": "0a8212865c00020017024602460215021702160229020f0f3e013e016c000000ffff001e01",
+      "purpose": "Expose capability-gated entry; preserve PBO Advanced dependency"
+    },
+    {
+      "question_id": 109,
+      "label": "CPU Curve Optimizer entry",
+      "module_offset": 119029,
+      "forms_offset": 6977,
+      "original": "0a821286b4000100170212065c0002001702160229020f0f3f013f016d000000ffff001f01",
+      "replacement": "0a82468246021502170212065c0002001702160229020f0f3f013f016d000000ffff001f01",
+      "purpose": "Expose capability-gated entry; preserve PBO Advanced dependency"
+    }
+  ],
+  "limits": [
+    "Menu-only patch; not a flashable BIOS",
+    "No SMU capability bits, executable code, default values or numeric ranges changed",
+    "Hardware voltage support and boot-time use remain unverified"
+  ]
+}
